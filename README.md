@@ -78,12 +78,14 @@ def convert_file(file_path):
     
     print(f"Converted {file_path} from {encoding} to UTF-8 with Simplified Chinese.")
 
-# Process all text files in the folder
-for filename in os.listdir(folder_path):
-    if filename.endswith(".txt"):
-        convert_file(os.path.join(folder_path, filename))
+# Process all text files in the folder and subfolders
+for root, _, files in os.walk(folder_path):
+    for filename in files:
+        if filename.endswith(".txt"):
+            convert_file(os.path.join(root, filename))
 
-print("✅ All files converted!")
+print("✅ All files (including subfolders) converted!")
+
 ```
 
 ---
