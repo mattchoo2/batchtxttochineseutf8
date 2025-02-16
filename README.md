@@ -127,12 +127,13 @@ input("\nPress Enter to exit...")  # Keeps the window open
 
 Here’s the **fully updated script** with the following fixes and improvements:
 
-✅ **Skips files that start with `~$`** (temporary files).  
-✅ **Renames filenames from Traditional Chinese to Simplified Chinese**, but **skips renaming if the file already exists**.  
-✅ **Catches errors (like `FileExistsError`) and continues processing instead of stopping**.  
-✅ **Automatically detects and scans the folder it’s in**, including **all subfolders**.  
-✅ **Converts non-UTF-8 files to UTF-8 and Traditional Chinese content to Simplified Chinese**.
-✅ **Can put in any folder and run**.
+✅ Skips files that start with `~$` (temporary files).  
+✅ Renames filenames from Traditional Chinese to Simplified Chinese**, but **skips renaming if the file already exists.  
+✅ Catches errors (like `FileExistsError`) and continues processing instead of stopping.  
+✅ Automatically detects and scans the folder it’s in**, including **all subfolders.  
+✅ Converts non-UTF-8 files to UTF-8 and Traditional Chinese content to Simplified Chinese.
+<br>✅ Can put in any folder and run.
+
 ---
 
 ## **3️⃣ Running the Script**
