@@ -173,3 +173,7 @@ This script provides an efficient way to **batch convert** all Chinese text file
 ✅ **Batch processing for an entire folder**  
 
 Now, you can safely manage and use your text files without worrying about encoding errors! 🚀
+
+## Support Me 💖
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/mattchoo2)
+
